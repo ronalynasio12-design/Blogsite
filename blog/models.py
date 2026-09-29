@@ -18,7 +18,7 @@ class Post(models.Model):
                               choices=Status.choices, 
                               default=Status.DRAFT)
 
-
+hallo there
     class Meta:
         ordering = ['-publish']
         indexes = [
